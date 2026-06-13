@@ -1,0 +1,23 @@
+{
+  "name": "school-canteen-bot-vk",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Бот школьной столовой для VK",
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "dotenv": "^17.4.2",
+    "node-fetch": "^2.7.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

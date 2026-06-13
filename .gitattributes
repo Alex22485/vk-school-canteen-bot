@@ -1,0 +1,14 @@
+# Автоматически нормализовать окончания строк
+* text=auto
+
+# JS файлы с LF
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Shell скрипты с LF
+*.sh text eol=lf
+
+# Batch файлы с CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
